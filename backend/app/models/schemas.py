@@ -5,3 +5,5 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     response: str
+    confidence_score: float
+    confidence_label: str
